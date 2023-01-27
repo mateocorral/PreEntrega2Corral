@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Prosto+One&display=swap" rel="stylesheet">
+    <title>CONTACTO</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../recursos/f1Logo.png" alt="Logo F1" class="logo"></a>
+        <nav>
+            <ul class="header__menuNav">
+                
+                <li><a href="./historia.html">HISTORIA</a></li>
+                <li><a href="./escuderias.html">ESCUDERIAS</a></li>
+                <li><a href="./pilotos.html">PILOTOS</a></li>
+                <li><a href="./contacto.html" class="header__menuNav--activo">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="#" method="get">
+            <input type="text" placeholder="Nombre" name="nombre">
+            <br><br>
+            <input type="text" placeholder="Apellido" name="apellido">
+            <br><br>
+            <input type="email" placeholder="Email" name="email">
+            <br><br>
+            <input type="text" placeholder="Telefono" name="tel">
+            <br><br>
+            <select name="pais">
+                <option value="Argentina">ARGENTINA</option>
+                <option value="Brasil">BRASIL</option>
+                <option value="Chile">CHILE</option>
+                <option value="Uruguay">URUGUAY</option>
+                <option value="Peru">PERU</option>
+                <option value="Otros">OTROS...</option>
+            </select>
+            <br><br>
+            <span>Quiere Recibir el Newsletter</span>
+            <br>
+            <label>
+                <span>Si</span>
+                <input type="radio" name="si">
+                <span>No</span>
+                <input type="radio" name="no">
+            </label>
+            <br><br>
+            <textarea name="consulta" id="" cols="30" rows="10" placeholder="Escriba su consulta aqui"></textarea>
+            <br><br>
+            <button>Enviar Formulario</button>
+            <input type="reset">
+
+
+        </form>
+    </main>
+    <footer>
+        <h3 class="footer__h3Redes">REDES</h3>
+        <ul class="footer__listaRedes">
+            <li><a href="https://www.instagram.com/f1/?next=%2F" target="_blank"><img src="../recursos/logoInstagram.png" class="logoRedes"></a></li>
+            <li><a href="https://twitter.com/F1?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="../recursos/logoTwitter.png" class="logoRedes"></a></li>
+            <li><a href="https://es-la.facebook.com/Formula1/" target="_blank"><img src="../recursos/logoFacebook.png" class="logoRedes"></a></li>
+            
+        </ul>
+    </footer>
+</body>
+</html>

@@ -293,11 +293,12 @@ div.scale:hover{
        justify-content: flex-start;
     }
     header{
-        height: 50vh;
+        height: 40vh;
     }
     li{
         padding: 0px;
         margin-left: 10px;
+        font-size: medium;
     }
     .header__menuNav{
         align-items: flex-start;
